@@ -7,14 +7,14 @@ function createCharacter ( name, nickname, race, origin, attack,defense) {
     attack,
     defense,
     describe:function () {
-      return `${name} is a ${race} from ${origin}.`;
+      return `${name} is a ${race} from ${origin}.`
     }
-    /*evaluateFight:function (character) {
+    evaluateFight:function (character) {
       let oppDam = character.attack - character.defense;
       let yourDam = character.attack - character.defense;
-    */
+    }
   };
-  //return `Your opponent takes ${oppDam} damage and you take ${youDam} damage.`
+  return `Your opponent takes ${oppDam} damage and you take ${youDam} damage.`
 }
 console.log (`Your opponent takes ${oppDam} damage and you take ${youDam} damage.`)
   let character = [
