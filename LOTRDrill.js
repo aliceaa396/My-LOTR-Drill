@@ -26,7 +26,7 @@ console.log (`Your opponent takes ${oppDam} damage and you take ${youDam} damage
     character.forEach(describe.evaluateFight);
   ]
   
-  character.push('Angel, Legna, Wolf,Parts Uknown,7,8');
+  character.push('Angel', 'Legna', 'Wolf','Parts Uknown',7,8');
   
   character.find(arragon(describe));
   
